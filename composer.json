@@ -1,0 +1,25 @@
+{
+    "name": "kuz/laratwig",
+    "description": "A simple Twig integration package for Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aaron Kuzemchak",
+            "email": "aaron@kuzemchak.net"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/view": "4.2.*",
+        "twig/twig": "1.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kuz\\LaraTwig\\": "src/"
+        }
+    }
+}
