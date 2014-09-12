@@ -44,7 +44,7 @@ If you want to change the default config, run the following Artisan command:
 
 	php artisan config:publish kuz/laratwig --path=vendor/kuz/laratwig/config
 
-You can then make changes in `app/config/packages/kuz/laratwig/twig.php`.
+You can then make changes in _app/config/packages/kuz/laratwig/twig.php_.
 
 ### 4. Create
 
